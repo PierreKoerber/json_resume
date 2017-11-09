@@ -1,0 +1,627 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+<title>Pierre Koerber</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+</head>
+<body>
+<header id="header">
+<div class="container">
+<div class="row">
+<div class="col-sm-9 col-sm-push-3">
+<h1>
+Pierre Koerber
+</h1>
+<h2>
+Développeur web
+</h2>
+</div>
+</div>
+</div>
+</header>
+<div id="content" class="container">
+<section id="contact" class="row">
+<aside class="col-sm-3">
+<h3>Contact</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-6">
+<strong>Email</strong>
+<div class="email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d0a0b9b5a2a2b5febbbfb5a2b2b5a290b7bdb1b9bcfeb3bfbd">[email&#160;protected]</a></div>
+</div>
+<div class="col-sm-6">
+<strong>Phone</strong>
+<div class="phone">+41 (0) 79 948 25 48</div>
+</div>
+<div class="col-sm-6">
+<strong>Website</strong>
+<div class="website">
+<a href="https://www.pierre-koerber.ch">https://www.pierre-koerber.ch</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="about" class="row">
+<aside class="col-sm-3">
+<h3>About</h3>
+</aside>
+<div class="col-sm-9">
+<p>Bienvenue sur mon CV en ligne. Ceci est un instantané 2018 de mon parcours professionnel. N&#x27;hésitez pas à me contacter pour avoir des compléments. Toute mon expérience et mon expertise est à votre disposition.</p>
+</div>
+</section>
+<section id="profiles" class="row">
+<aside class="col-sm-3">
+<h3>Profiles</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-6">
+<strong class="network">
+Twitter
+</strong>
+<div class="username">
+<div class="url">
+<a href="https://twitter.com/pierre_koerber">pierre_koerber</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<strong class="network">
+Facebook
+</strong>
+<div class="username">
+<div class="url">
+<a href="https://soundcloud.com/dandymusicnl">dandymusicnl</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<strong class="network">
+Linkedin
+</strong>
+<div class="username">
+<div class="url">
+<a href="https://www.linkedin.com/in/pierre-k%C3%B6rber-98a4423a/">pierre-koerber</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<strong class="network">
+Github
+</strong>
+<div class="username">
+<div class="url">
+<a href="https://www.github.com">pierre-koerber</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="work" class="row">
+<aside class="col-sm-3">
+<h3>Work</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>ECA Pully</span>
+<span class="date">
+2010 —
+</span>
+</h4>
+<div class="website pull-right">
+<a href="www.eca-vaud.ch">www.eca-vaud.ch</a>
+</div>
+<div class="position">
+Dévelopeur web
+</div>
+<div class="summary">
+<p>Entré comme administrateur de messagerie, j&#x27;ai évolué vers DEVOPS sur notre plateforme WEB. Quel plaisir que de faire avance l&#x27;IT dans mon entreprise.</p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet">Développement et maintenance lotus domino</li>
+<li class="bullet">Migration d&#x27;application en SF2 et Javascript</li>
+<li class="bullet">Gestion du site Internet JOOMLA</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Assura (Figeas)</span>
+<span class="date">
+2007 — 2010
+</span>
+</h4>
+<div class="website pull-right">
+<a href="fr.assura.ch">fr.assura.ch</a>
+</div>
+<div class="position">
+Dévelopeur web
+</div>
+<div class="summary">
+<p></p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet"></li>
+<li class="bullet">Développement de composant serveur en C++</li>
+<li class="bullet">Management de projets</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>BASF-Orgamol</span>
+<span class="date">
+2001 — 2007
+</span>
+</h4>
+<div class="website pull-right">
+<a href="www.basf.com">www.basf.com</a>
+</div>
+<div class="position">
+Consultant IBM Lotus/Domino
+</div>
+<div class="summary">
+<p></p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet">Développement lotusscript et web</li>
+<li class="bullet">Administration domino, migration domino 5.x / 6.x</li>
+<li class="bullet">Gestion de projets</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Webside Associates SA</span>
+<span class="date">
+1998 — 2001
+</span>
+</h4>
+<div class="website pull-right">
+<a href="www.webside.ch">www.webside.ch</a>
+</div>
+<div class="position">
+Consultant IBM Lotus/Domino
+</div>
+<div class="summary">
+<p>Avant le web 2.0, je m&#x27;embarque dans l&#x27;aventure du Web en pleine emphorie des .com</p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet">Développement lotusscript et web</li>
+<li class="bullet">Développement de composant serveur en C++</li>
+<li class="bullet">Management de projets</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>TI Informatique</span>
+<span class="date">
+1994 — 1998
+</span>
+</h4>
+<div class="website pull-right">
+<a href="www.groupe-t2i.com">www.groupe-t2i.com</a>
+</div>
+<div class="position">
+Dévelopeur sur AS/400
+</div>
+<div class="summary">
+<p>J&#x27;ai développé des applications sur un L4G puis je me suis spécialisé sur l&#x27;intégration de donnée entre le monde PC et le main-frame.</p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet">Gestion et maintenance d&#x27;applications Synon2</li>
+<li class="bullet">Intégration AS400 et PC</li>
+<li class="bullet">Réalisation de CL scripts / RPG / C sur AS400</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="volunteer" class="row">
+<aside class="col-sm-3">
+<h3>Volunteer</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Vélo-club excelsior</span>
+<span class="date">
+2001-01-01 — 2017-12-31
+</span>
+</h4>
+<div class="website pull-right">
+<a href="https://www.vcMartigny.ch/">https://www.vcMartigny.ch/</a>
+</div>
+<div class="position">
+Président et membre du comité
+</div>
+<div class="summary">
+<p>Dévelopement de l&#x27;association par la mise en place de l&#x27;école de cyclimse et de la gestion administrative.</p>
+</div>
+<h4>Highlights</h4>
+<ul class="highlights">
+<li class="bullet">Création et suivi de l&#x27;école de cyclisme</li>
+<li class="bullet">Pérénisation des organisations des courses nationales historiques</li>
+<li class="bullet">Mise en place d&#x27;une structure administrative informatisée</li>
+<li class="bullet">Contrôle de dépenses et consolidation des comptes</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="education" class="row">
+<aside class="col-sm-3">
+<h3>Education</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Ecole supérieure d&#x27;informatique Sierre</span>
+<span class="date">
+1992 — 1994
+</span>
+</h4>
+<div class="area">
+Informatique
+</div>
+<div class="studyType">
+Diplôme
+</div>
+<h4>Courses</h4>
+<ul class="courses">
+<li>Système</li>
+<li>Développement C/C++/Cobol</li>
+<li>Gestion comptabilité, droit</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Ecole supérieure de commerce Martigny</span>
+<span class="date">
+1986 — 1989
+</span>
+</h4>
+<div class="area">
+Commerce
+</div>
+<div class="studyType">
+Diplôme
+</div>
+<h4>Courses</h4>
+<ul class="courses">
+<li>Comptablité</li>
+<li>Droit</li>
+<li>Informatique</li>
+</ul>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Ecoles obligatoire Martigny</span>
+<span class="date">
+1976 — 1986
+</span>
+</h4>
+<div class="area">
+</div>
+<div class="studyType">
+Primaire
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="awards" class="row">
+<aside class="col-sm-3">
+<h3>Awards</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Diplôme commercial type gestion</span>
+</h4>
+<div class="date pull-right">
+<em>Awarded</em>
+2014-11-01
+</div>
+<div class="awarder">
+<em>by</em>
+<strong>Techcrunch</strong>
+</div>
+<div class="summary">
+There is no spoon.
+</div>
+</div>
+<div class="col-sm-12">
+<h4 class="strike-through">
+<span>Diplôme commercial type gestion</span>
+</h4>
+<div class="date pull-right">
+<em>Awarded</em>
+2014-11-01
+</div>
+<div class="awarder">
+<em>by</em>
+<strong>Techcrunch</strong>
+</div>
+<div class="summary">
+There is no spoon.
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="skills" class="row">
+<aside class="col-sm-3">
+<h3>Skills</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-6">
+<div class="name">
+<h4>Web Development</h4>
+</div>
+<ul class="keywords">
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+</ul>
+</div>
+<div class="col-sm-6">
+<div class="name">
+<h4>Compression</h4>
+</div>
+<ul class="keywords">
+<li>Mpeg</li>
+<li>MP4</li>
+<li>GIF</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="languages" class="row">
+<aside class="col-sm-3">
+<h3>Languages</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-6">
+<div class="language">
+<strong>Français</strong>
+</div>
+<div class="fluency">
+Native speaker
+</div>
+</div>
+<div class="col-sm-6">
+<div class="language">
+<strong>Anglais</strong>
+</div>
+<div class="fluency">
+English Cambridge first certificate
+</div>
+</div>
+<div class="col-sm-6">
+<div class="language">
+<strong>Allemand</strong>
+</div>
+<div class="fluency">
+Connaissances scolaires + stage en Allemagne
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="interests" class="row">
+<aside class="col-sm-3">
+<h3>Interests</h3>
+</aside>
+<div class="col-sm-9">
+<div class="row">
+<div class="col-sm-6">
+<div class="name">
+<h4>Technologies émergentes</h4>
+</div>
+<ul class="keywords">
+<li>Machine learning</li>
+<li>SIG</li>
+<li>Javascript frameworks</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script src="/cdn-cgi/scripts/84a23a00/cloudflare-static/email-decode.min.js"></script></body>
+</html>

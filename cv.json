@@ -1,0 +1,113 @@
+{
+  "personne": {
+    "lastname": "Koerber",
+    "firstname": "Pierre",
+    "birthdate": "21.09.1970",
+    "profile": "Développeur WEBSenior Web Developer"
+  },
+    "localisation": {
+    "street": "Route des Rappes",
+    "streetNumber": 56,
+    "zip": "1921",
+    "city": "Martigny-Croix",
+    "email":"pierre.koerber@gmail.com",
+    "website":"https://www.pierre-koerber.ch",
+    "mobile":"+41 79 948 25 48",
+    "linkedin":"https://www.linkedin.com/in/pierre-k%C3%B6rber-98a4423a/",
+    "facebook":"",
+    "tweeter":""
+  },
+  "description": {
+    "description": "Pierre est un développeur d'expérience."
+  },
+  "schools": [
+    {
+      "period": "1976-1987",
+      "label": "Ecoles obligatoire Martigny"
+    },
+    {
+      "period": "1986-1988",
+      "label": "Ecole supérieure de commerce Martigny"
+    },
+    {
+      "period": "1992-1994",
+      "label": "Ecole supérieure d'informatique Sierre"
+    }
+  ],
+  "certification":
+    [
+    "Diplôme commercial type gestion",
+    "Diplôme d’informaticien de gestion ES de l’ESIS",
+    "English Cambridge first certificate",
+    "Principal CLP IBM Lotus Domino 7 Application Developer",
+    "CLP IBM Lotus Domino 7 System Administrator",
+    "Certificat cours IGS ESIS – Langage C++.",
+    "Certificat cours IGS ESIS – MOO Grady Booch."
+    ],
+  "jobs": [
+    {
+      "period": "1994 à 1998",
+      "company": "TI Informatique",
+      "companyUrl": "www.groupe-t2i.com",
+      "activities": [
+        "Développement Synon II sur AS/400.",
+        "Réalisation de modules spécifiques pour intégration AS/400 - PC"
+      ]
+    },
+    {
+      "period": "1998 à 2001",
+      "company": "Webside Associates SA",
+      "companyUrl": "www.webside.ch",
+      "activities": [
+        "Développeur web et developpeur IBM Domino.",
+        "Réalisation d'intégrations spécifiques en C/C++.",
+        "Développeur web et développeur IBM Domino."
+      ]
+    },
+    {
+      "period": "2001 à 2007",
+      "company": "BASF-Orgamol",
+      "companyUrl": "www.basf.com/ch/fr.html",
+      "activities": [
+        "Gestion internet / intranet et support utilisateur.",
+        "Développement et maintenance d'applications IBM Domino.",
+        "Gestion du système de messagerie IBM Domino (migration version 5x à 6x)"
+      ]
+    },
+    {
+      "period": "2007 à 2010 ",
+      "company": "Assura (Figeas)",
+      "companyUrl": "fr.assura.ch/",
+      "activities": [
+        "Développement de module spécifique sur l'intranet et gestion d'applications lotus.",
+        "Ecriture de servlet tomcat sur la stack Domino pour optimisation des nperformances et intégration des générations de PDFs.",
+        "Développeur web principal sur l'extranet clients (60'000 comptes). Gestion du frontend + des importations liées avec l'AS/400."
+      ]
+    },
+    {
+      "period": "dès 2010",
+      "company": "ECA Pully",
+      "companyUrl": "www.eca-vaud.ch",
+      "activities": [
+        "Responsable IBM Domino / développeur WEB.",
+        "Maintenance application domino avec backend java (intégration à Oracle eBiz).",
+        "Réalisation frontend + backend assistant de déclaration de sinistre ECA.",
+        "Réalisation application en AngularJS + backend Symfony2 + restful services utilisation doctrine ORM"
+      ]
+    }
+  ],
+  "qualities": [],
+  "languages": [
+    "Français",
+    "Anglais",
+    "Allemand connaissances scolaires"
+  ],
+  "skills": [
+    1,
+    2,
+    3
+  ],
+  "quotes":[
+  		"If you call failures experiments, you can put them in your resume and claim them as achievements."
+  ]
+}
