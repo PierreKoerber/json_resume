@@ -6,7 +6,7 @@
     "email": "pierre.koerber@gmail.com",
     "phone": "+41 (0) 79 948 25 48",
     "website": "https://www.pierre-koerber.ch",
-    "summary": "Bienvenue sur mon CV en ligne. Ceci est un instantané 2018 de mon parcours professionnel. N'hésitez pas à me contacter pour avoir des compléments. Toute mon expérience et mon expertise est à votre disposition.",
+    "summary": "Plus de 20 ans dans l'industrie informatique, cela en fait des anecdotes et de l'expérience accumulée. Ceci est un instantané 2018 de mon parcours professionnel. N'hésitez pas à me contacter pour avoir des compléments. Toute mon expérience et mon expertise est à votre disposition.",
     "location": {
       "address": "Route des Rappes 56",
       "postalCode": "1921",
@@ -19,11 +19,6 @@
         "network": "Twitter",
         "username": "pierre_koerber",
         "url": "https://twitter.com/pierre_koerber"
-      },
-      {
-        "network": "Facebook",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
       },
       {
         "network":"Linkedin",
@@ -44,10 +39,11 @@
       "website": "www.eca-vaud.ch",
       "startDate": "2010",
       "endDate": "",
-      "summary": "Entré comme administrateur de messagerie, j'ai évolué vers DEVOPS sur notre plateforme WEB. Quel plaisir que de faire avance l'IT dans mon entreprise.",
+      "summary": "Ma dernière aventure. Entré comme administrateur de messagerie, j'ai évolué vers DEVOPS sur notre plateforme WEB. Quel plaisir que de faire avancer l'IT dans mon entreprise. Le voyage continue.",
       "highlights": [
         "Développement et maintenance lotus domino",
         "Migration d'application en SF2 et Javascript",
+        "Création du formulaire de déclaratino de sinistre",
         "Gestion du site Internet JOOMLA"
       ]
     },
@@ -57,11 +53,11 @@
       "website": "fr.assura.ch",
       "startDate": "2007",
       "endDate": "2010",
-      "summary": "",
+      "summary": "Après le monde strict de la chimie, voici que je débarque dans ma mission de sauver le système maladie suisse. Une bel objetctif, à vos ordre Rackam le Rouge, en gérant un extranet de 60'000 assurés on a fait du bon boulot pour diminuer les coûts. De bons souvenirs et de belles rencontres.",
       "highlights": [
-        "",
+        "Gestion de l'extranet client (60'000 comptes)",
         "Développement de composant serveur en C++",
-        "Management de projets"
+        "Management de projets, veille technologique"
       ]
     },
     {
@@ -70,7 +66,7 @@
       "website": "www.basf.com",
       "startDate": "2001",
       "endDate": "2007",
-      "summary": "",
+      "summary": "Après la folie des dotCom, je rentre dans le monde ultra audité de la chimie. Audits FDA, audit trail, tout doit être tracé.  Une expérience de vie. ",
       "highlights": [
         "Développement lotusscript et web",
         "Administration domino, migration domino 5.x / 6.x",
@@ -83,7 +79,7 @@
       "website": "www.webside.ch",
       "startDate": "1998",
       "endDate": "2001",
-      "summary": "Avant le web 2.0, je m'embarque dans l'aventure du Web en pleine emphorie des .com",
+      "summary": "Avant l'arrivée web 2.0, je m'embarque dans l'aventure du Web en pleine emphorie des dotCom. On travaille 15 heures par jour et on essaie de pousser en avant la startup. Les rèves des années 2000 s'effondrent après le crash des dotCom sont complètement entérrés après le 9/11.",
       "highlights": [
         "Développement lotusscript et web",
         "Développement de composant serveur en C++",
@@ -96,7 +92,7 @@
       "website": "www.groupe-t2i.com",
       "startDate": "1994",
       "endDate": "1998",
-      "summary": "J'ai développé des applications sur un L4G puis je me suis spécialisé sur l'intégration de donnée entre le monde PC et le main-frame.",
+      "summary": "Tout frais diplômé, heureux de rentré dans 'la Firme'. Je m'attaque avec passion au mainframe puis je switch sur la programmation de middleware sur la stack tcpIp qui arrive. La suite, vous la connaissez, Internet en 1994 puis vers l'infini et au-delà.",
       "highlights": [
         "Gestion et maintenance d'applications Synon2",
         "Intégration AS400 et PC",
@@ -107,11 +103,11 @@
   "volunteer": [
     {
       "organization": "Vélo-club excelsior",
-      "position": "Président et membre du comité",
+      "position": "Président (2001-2006) et membre du comité (2007-2017)",
       "website": "https://www.vcMartigny.ch/",
       "startDate": "2001-01-01",
       "endDate": "2017-12-31",
-      "summary": "Dévelopement de l'association par la mise en place de l'école de cyclimse et de la gestion administrative.",
+      "summary": "Ancien coureur le vélo-club s'est endormi après ses heures de gloire. Avec une équipe de jeune on relance la machine, on dépasse tout le monde et le VCE est devenu la référence en Suisse romande.",
       "highlights": [
         "Création et suivi de l'école de cyclisme",
         "Pérénisation des organisations des courses nationales historiques",
@@ -179,12 +175,12 @@
       ]
     },
     {
-      "name": "Compression",
+      "name": "DEVOPS",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Linux",
+        "Shellscript",
+        ""
       ]
     }
   ],
