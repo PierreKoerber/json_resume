@@ -1,12 +1,19 @@
-## ChangeLog
+# vueresume
 
+## Project setup
+```
+yarn install
+```
 
-* 09.11.2017 - version 1.0 - upload cv 2017
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-## Abstract
+### Compiles and minifies for production
+```
+yarn build
+```
 
-Ceci est un exemple d'utilisation de la génération de CV en NODEJS.
-
-Un magnifique projet qui mérite votre attention.
-
-## Commandes
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
