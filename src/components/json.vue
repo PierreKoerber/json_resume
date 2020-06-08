@@ -3,6 +3,7 @@
 
     <div style="float:left">
         <div v-for="(f,i) in fields" :key="i">
+            
             <div :style="getmargin(f)" >
                 {{f.model}}:
                 <input  v-model="f.value" @change="update(f)">
@@ -65,6 +66,7 @@ export default {
               name:prop,
               value:obj[prop],
               type:typeof(obj[prop]),
+              father:fathername,
               model:model + prop,
               level:level
           } ;
