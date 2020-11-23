@@ -1,7 +1,6 @@
 <template>
   <div id="app">
 
-      <button v-on:click="editJson=!editJson">editJson</button>
 
       <json :json="cv" v-if="editJson"></json>
       <resume :data="cv" v-if="!editJson"></resume>
