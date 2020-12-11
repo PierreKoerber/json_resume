@@ -1,17 +1,14 @@
 <template>
 
 <div class="container">
+
+<h1>resume</h1>
   <div class="row">
     <div class="col-2 bg-secondary">
-       <img src="img/rosalie2.jpg">
-       fsfsdafdasf
-	   fsdfsda
-	   fsadfas
-	   dfsadf
-	   s
+     
     </div>
     <div class="col-10">
-
+		<myheader :data="data"></myheader>
 		<contact :data="data"></contact>
 		<about :data="data"></about>
 		<profiles :data="data"></profiles>
@@ -47,6 +44,8 @@ import languages from './parts/languages.vue' ;
 import interests from './parts/interests.vue' ;
 import references from './parts/references.vue' ;
 
+import cv from '../store/resume-pierre.json' ;
+
 
 export default {
   name: 'resume',
@@ -65,15 +64,13 @@ export default {
 	  interests,
 	  references
   },
-  data(){
+  data : function(){
     return{
+		data:cv
     }
   },
   methods:{
    
-  },
-  props: {
-    data:Object
   }
 }
 </script>

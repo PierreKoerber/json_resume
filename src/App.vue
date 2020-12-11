@@ -1,36 +1,46 @@
 <template>
   <div id="app">
 
+      <mymenu></mymenu>
 
-      <json :json="cv" v-if="editJson"></json>
-      <resume :data="cv" v-if="!editJson"></resume>
+
+      <router-view object="cv"></router-view>
+
+
   </div>
 </template>
 
 <script>
-import myform from './components/myform.vue' ;
-import resume from './components/resume.vue' ;
-
 import json from './components/json.vue' ;
 import cv from './store/resume.json' ;
+import mymenu from './components/mymenu.vue' ;
 
+import mymodal from './modal/mymodal'
+
+import { FormField } from '@asigloo/vue-dynamic-forms';
 
 export default {
   name: 'App',
-  components: {
-    myform,
-    json,
-    resume
-  },
-  data(){
-    return{
-      cv:cv,
-      editJson:false
+  data: function () {
+    return {
+      count: 0,
+      show:false
     }
+  },
+  components: {
+    mymenu
+  },
+  methods:{
+    guess() {
+       this.show =true ;
+    } 
   }
 }
 </script>
 
 <style>
-
+#app{
+  margin-left:20px ;
+  margin-top:20px ;
+}
 </style>

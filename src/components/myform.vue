@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
 
+<h2>json editor</h2>
     <div style="float:left">
         <div v-for="(f,i) in fields" :key="i">
             <div :style="getmargin(f)" >
